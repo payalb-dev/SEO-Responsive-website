@@ -3,10 +3,8 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  margin: 100px 0px;
 }
 
 h1,
@@ -14,7 +12,7 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
-  text-transform: capitalize;
+  
 }
 
 h1 {
@@ -23,18 +21,24 @@ h1 {
 
 h2 {
   font-size: 48px;
+  text-transform: capitalize;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  line-height: 1.2;
+  font-weight: 500;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
+  margin: 10px;
 }
-
+.about-paragraphs {
+  margin: 10px;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -86,7 +90,9 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+
 }
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
@@ -102,4 +108,10 @@ p {
   h2 {
     font-size: 32px;
   }
+  .project-link{
+    display: block;
+    margin: 0 20px;
+  }
+  
 }
+
